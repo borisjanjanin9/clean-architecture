@@ -21,7 +21,6 @@
         <module>adapter/controller</module>
         <module>adapter/repository</module>
         <module>application/spring-app</module>
-        <module>config</module>
     </modules>
 
     <dependencies>
