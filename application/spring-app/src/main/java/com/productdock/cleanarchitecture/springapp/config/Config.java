@@ -24,7 +24,7 @@ public class Config {
     }
 
     @Bean
-    public CompanyController userController() {
+    public CompanyController companyController() {
         return new CompanyController(createCompany());
     }
 

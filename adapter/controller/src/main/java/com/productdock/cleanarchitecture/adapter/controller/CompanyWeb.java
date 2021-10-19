@@ -1,6 +1,5 @@
 package com.productdock.cleanarchitecture.adapter.controller;
 
-
 import com.productdock.cleanarchitecture.domain.entity.Company;
 import lombok.Getter;
 import lombok.Setter;
@@ -18,7 +17,7 @@ public class CompanyWeb {
                 .build();
     }
 
-    public static CompanyWeb toUserWeb(final Company company) {
+    public static CompanyWeb toCompanyWeb(final Company company) {
         CompanyWeb companyWeb = new CompanyWeb();
         companyWeb.setId(company.getId());
         companyWeb.setName(company.getName());

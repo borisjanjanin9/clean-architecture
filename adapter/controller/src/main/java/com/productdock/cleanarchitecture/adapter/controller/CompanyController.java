@@ -11,6 +11,6 @@ public class CompanyController {
 
     public CompanyWeb createCompany(final CompanyWeb companyWeb) {
         Company company = companyWeb.toCompany();
-        return CompanyWeb.toUserWeb(createCompany.create(company));
+        return CompanyWeb.toCompanyWeb(createCompany.create(company));
     }
 }

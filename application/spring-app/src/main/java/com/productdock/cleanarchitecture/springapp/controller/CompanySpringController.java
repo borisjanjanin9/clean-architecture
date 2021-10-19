@@ -14,8 +14,8 @@ public class CompanySpringController {
     private final CompanyController controller;
 
     @PostMapping(value = "/companies")
-    public CompanyWeb createCompany(@RequestBody final CompanyWeb userWeb) {
-        return controller.createCompany(userWeb);
+    public CompanyWeb createCompany(@RequestBody final CompanyWeb companyWeb) {
+        return controller.createCompany(companyWeb);
     }
 
 }

@@ -11,6 +11,7 @@ public final class CreateCompany {
     public Company create(final Company company) {
 
         // validations
+        // example name already exists
         
         return repository.create(company);
     }
