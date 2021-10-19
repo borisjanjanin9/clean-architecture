@@ -15,5 +15,4 @@ public class InMemoryCompanyRepository implements CompanyRepository {
         inMemoryDb.put(company.getId(), company);
         return company;
     }
-
 }
